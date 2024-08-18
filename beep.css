@@ -1,18 +1,34 @@
 body{
+    margin: 0%;
     border-top: 10px solid #1098ad;
     color: #444;
-    position: relative;
 }
-
 .container{
-    width: 800px;
-    margin: 100px;
-    position: relative;
+    width: 75%;
+    margin: 0 auto;
 }
-
 header{
     background-color: #f7f7f7;
-    padding: 10px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    color: #1098ad;
+}
+a{
+    color: #1098ad;
+    text-decoration: none;
+    font-size: 18px;
+}
+.web-blog{
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.section{
+    color: #1098ad;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
 }
 h1{
     color: #1098ad;
@@ -20,65 +36,13 @@ h1{
     font-style: italic;
     font-size: 26px;
 }
-a{
-    text-decoration: none;
-    color: #1098ad;
-    margin-left: 25px;
-    font-size: 18px;
-}
-
-h2{
-    color: #1098ad;
-    font-size: 40px;
-    margin-bottom: 30px;
-}
-.author{
-    font-style: italic;
-    font-weight: 500;
-    font-size: 18px;
-}
-.post-img{
-    width: 100%;
-    height: 300px;
-}
-p{
-    font-size: 22px;
-    line-height: 1.5;
-}
-h3{
-    color: #1098ad;
-    font-size: 30px;
-}
-
-.web-link{
-    margin: 0;
-    font: 18px;
-}
-
-ul, ol{
-    font-size: 20px;
-    line-height: 1.7;
-}
-
-li:first-child{
-    font-weight: bold;
-}
-
-li:last-child{
-    font-style: italic;
-}
-
 .related-post{
     width: 300px;
-    height: 600px;
+    height: 400px;
     background-color: #f7f7f7;
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
-    padding: 10,10,10,10px;
-    position: absolute;
-    top: 140px;
-    right: -500px;
-    margin-right: 100px;
+    margin-top: 40px;
 }
 .related-title{
     text-transform: uppercase;
@@ -108,15 +72,29 @@ button{
 footer{
     margin-bottom: 10px;
 }
+h2{
+    color: #1098ad;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
 #subtitle::after{
 content:"top";
 background-color: yellow;
 color: black;
-padding: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 3px;
 font-size: 16px;
 position: relative;
 top: -20px;
 left: 60px;
+text-transform: uppercase;
 }
 .navigation{
     display: flex;
@@ -126,8 +104,24 @@ left: 60px;
     display: flex;
     position: relative;
 }
-.code{
-    position: absolute;
-    margin-left: 130px;
-    top: 80px;
+.design-p{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.related-style{
+    display: flex;
+    line-height: 15px;
+    height: 100px;
+}
+.sub-related{
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.related-image{
+    margin-top: 15px;
+}
+p{
+    font-size: 15px;
+    line-height: 15px;
 }
